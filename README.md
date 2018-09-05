@@ -4,7 +4,7 @@
 
 ## 重构
 
-- [简介](docs/refactor/README.md)
+- [对于重构的思考](docs/refactor/think-in-refactor.md)
 - [代码臃肿(Bloated)](docs/refactor/chapter01/README.md)
   - [过长函数](docs/refactor/chapter01/过长函数.md)
   - [过大的类](docs/refactor/chapter01/过大的类.md)
