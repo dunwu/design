@@ -4,7 +4,7 @@
 
 > 你有一个复杂的 `switch`  语句或 `if`  序列语句。
 
-![img](https://raw.githubusercontent.com/dunwu/design/master/images/refactor/switch-statements/switch-statements-1.png)
+![img](http://dunwu.test.upcdn.net/images/refactor/switch-statements-1.png)
 
 ### 问题原因
 
@@ -24,7 +24,7 @@
 
 - 提升代码组织性。
 
-![img](https://raw.githubusercontent.com/dunwu/design/master/images/refactor/switch-statements/switch-statements-2.png)
+![img](http://dunwu.test.upcdn.net/images/refactor/switch-statements-2.png)
 
 ### 何时忽略
 
@@ -70,13 +70,13 @@ void printDetails(double outstanding) {
 
 你的程序中，有个函数与其所驻类之外的另一个类进行更多交流：调用后者，或被后者调用。
 
-![img](https://raw.githubusercontent.com/dunwu/design/master/images/refactor/switch-statements/Move%20Method%20-%20Before.png)
+![img](http://dunwu.test.upcdn.net/images/refactor/move-method-before.png)
 
 **解决**
 
 在该函数最常引用的类中建立一个有着类似行为的新函数。将旧函数变成一个单纯的委托函数，或是旧函数完全移除。
 
-![img](https://raw.githubusercontent.com/dunwu/design/master/images/refactor/switch-statements/Move%20Method%20-%20After.png)
+![img](http://dunwu.test.upcdn.net/images/refactor/move-method-after.png)
 
 ### 以子类取代类型码(Replace Type Code with Subclass)
 
@@ -84,13 +84,13 @@ void printDetails(double outstanding) {
 
 你有一个不可变的类型码，它会影响类的行为。
 
-![img](https://raw.githubusercontent.com/dunwu/design/master/images/refactor/primitive-obsession/Replace%20Type%20Code%20with%20Subclasses%20-%20Before.png)
+![img](http://dunwu.test.upcdn.net/images/refactor/replace-type-code-with-subclasses-before.png)
 
 **解决**
 
 以子类取代这个类型码。
 
-![img](https://raw.githubusercontent.com/dunwu/design/master/images/refactor/primitive-obsession/Replace%20Type%20Code%20with%20Subclasses%20-%20After.png)
+![img](http://dunwu.test.upcdn.net/images/refactor/replace-type-code-with-subclasses-after.png)
 
 ### 以状态/策略模式取代类型码(Replace Type Code with State/Strategy)
 
@@ -98,13 +98,13 @@ void printDetails(double outstanding) {
 
 你有一个类型码，它会影响类的行为，但你无法通过继承消除它。
 
-![img](https://raw.githubusercontent.com/dunwu/design/master/images/refactor/primitive-obsession/Replace%20Type%20Code%20with%20State-Strategy%20-%20Before.png)
+![img](http://dunwu.test.upcdn.net/images/refactor/replace-type-code-with-state-strategy-before.png)
 
 **解决**
 
 以状态对象取代类型码。
 
-![img](https://raw.githubusercontent.com/dunwu/design/master/images/refactor/primitive-obsession/Replace%20Type%20Code%20with%20State-Strategy%20-%20After.png)
+![img](http://dunwu.test.upcdn.net/images/refactor/replace-type-code-with-state-strategy-after.png)
 
 ### 以多态取代条件表达式(Replace Conditional with Polymorphism)
 
