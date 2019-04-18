@@ -32,7 +32,7 @@ Kong 支持在多种环境下安装。
 
 官方安装说明：https://konghq.com/install/
 
-<br><div align="center"><img src="http://oyz7npk35.bkt.clouddn.com/images/20180920181011104339.png"/></div><br>
+<br><div align="center"><img src="https://raw.githubusercontent.com/dunwu/images/master/snap/20180920181011104339.png"/></div><br>
 
 以下为 Centos7 安装步骤：
 
