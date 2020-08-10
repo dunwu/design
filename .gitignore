@@ -1,0 +1,61 @@
+# ---------------------------------------------------------------------
+# more gitignore templates see https://github.com/github/gitignore
+# ---------------------------------------------------------------------
+
+# ------------------------------- java -------------------------------
+# compiled folders
+classes
+target
+logs
+.mtj.tmp/
+
+# compiled files
+*.class
+
+# bluej files
+*.ctxt
+
+# package files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs
+hs_err_pid*
+
+# maven plugin temp files
+.flattened-pom.xml
+package-lock.json
+
+
+# ------------------------------- javascript -------------------------------
+# dependencies
+node_modules
+
+# temp folders
+.temp
+dist
+_book
+_jsdoc
+
+# temp files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+bundle*.js
+book.pdf
+
+
+# ------------------------------- intellij -------------------------------
+.idea
+*.iml
+
+
+# ------------------------------- eclipse -------------------------------
+.classpath
+.project
