@@ -24,15 +24,15 @@
 >
 > 软件整体结构与组件的抽象描述，用于指导大型软件系统各个方面的设计。重点是分而治之，先将大型系统抽象为各个组件或模块；然后逐一解决各组件、各模块的功能、性能问题；最后将这些组件、模块整合成对外服务的一个整体。
 
-- [系统架构面试题](docs/architecture/system-architecture-interview.md)
-- [系统架构概述](docs/architecture/system-architecture-overview.md)
-- [高性能架构](docs/architecture/high-performance-architecture.md)
-- [高可用架构](docs/architecture/high-availability-architecture.md)
-- [伸缩性架构](docs/architecture/scalable-architecture.md)
-- [扩展性架构](docs/architecture/extensible-architecture.md)
-- [安全性架构](docs/architecture/security-architecture.md)
-- [大型系统核心技术](docs/architecture/system-core-technologies.md)
-- [领域驱动设计](docs/architecture/ddd.md)
+- [系统架构面试题](docs/architecture/系统架构面试.md)
+- [系统架构概述](docs/architecture/系统架构概述.md)
+- [系统高性能架构](docs/architecture/系统高性能架构.md)
+- [系统高可用架构](docs/architecture/系统高可用架构.md)
+- [系统伸缩性架构](docs/architecture/系统伸缩性架构.md)
+- [系统扩展性架构](docs/architecture/系统扩展性架构.md)
+- [系统安全性架构](docs/architecture/系统安全性架构.md)
+- [大型系统核心技术](docs/architecture/大型系统核心技术.md)
+- [领域驱动设计](docs/architecture/领域驱动设计.md)
 
 ### [设计模式](docs/pattern)
 
