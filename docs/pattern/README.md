@@ -19,7 +19,7 @@
 
 |                             模式                             |                           说明                            |
 | :----------------------------------------------------------: | :-------------------------------------------------------: |
-| <a href="单例模式.md" target="_blank" rel="noopener noreferrer"><img width="60" height="60" src="https://raw.githubusercontent.com/dunwu/images/dev/snap/20201010091801.png"></a><br>[单例模式 (Singleton Pattern)](单例模式.md) | 保证一个类只有一个实例， 并提供一个访问该实例的全局节点。 |
+| <a href="单例模式.md" target="_blank" rel="noopener noreferrer"><img width="60" height="60" src="http://dunwu.test.upcdn.net/snap/20201010091801.png"></a><br>[单例模式 (Singleton Pattern)](单例模式.md) | 保证一个类只有一个实例， 并提供一个访问该实例的全局节点。 |
 
 ### 结构型模式
 
