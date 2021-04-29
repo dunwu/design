@@ -1,15 +1,15 @@
 ---
 home: true
-heroImage: http://dunwu.test.upcdn.net/common/logo/dunwu-logo.png
+heroImage: /images/dunwu-logo-200.png
 heroText: Design
-tagline: ☕ DESIGN 是架构、设计相关的教程。
+tagline: ☕ DESIGN 是个人对于架构的心得和总结。
 actionLink: /
 footer: CC-BY-SA-4.0 Licensed | Copyright © 2018-Now Dunwu
 ---
 
 # Design
 
-> ☕ **DESIGN** 是架构、设计相关的教程。
+> ☕ **DESIGN** 是个人对于架构的心得和总结。
 >
 > - 🔁 项目同步维护：[Github](https://github.com/dunwu/design/) | [Gitee](https://gitee.com/turnon/design/)
 > - 📖 电子书阅读：[Github Pages](https://dunwu.github.io/design/) | [Gitee Pages](http://turnon.gitee.io/design/)
@@ -89,3 +89,42 @@ footer: CC-BY-SA-4.0 Licensed | Copyright © 2018-Now Dunwu
 - [UML 快速入门](uml/uml-quickstart.md)
 - [UML 结构建模图](uml/UML结构建模图.md)
 - [UML 行为建模图](uml/UML行为建模图.md)
+
+## 📚 资料
+
+- **书籍**
+  - [《大型网站技术架构：核心原理与案例分析》](https://item.jd.com/11322972.html) - 浅显易懂的将解大型网站架构演进之路；简介了大型系统所面临的挑战以及核心技术点。
+  - [《亿级流量网站架构核心技术：跟开涛学搭建高可用高并发系统》](https://item.jd.com/12153914.html)
+  - [大型网站系统与 Java 中间件实践](https://item.jd.com/11449803.html)
+  - [企业 IT 架构转型之道：阿里巴巴中台战略思想与架构实战](https://item.jd.com/12176278.html) - 阐述阿里巴巴中台系统发展，更多的是讲解应用场景和能力，没有讲解技术细节。
+  - [逆流而上：阿里巴巴技术成长之路](https://item.jd.com/12238227.html) - 主要以运维的视角阐述系统运维中遇到的困难，定位思路以及解决方法。
+  - [《O'Reilly：Head First 设计模式》](https://item.jd.com/10100236.html)
+  - [《大话设计模式》](https://item.jd.com/10079261.html)
+  - [《重构——改善既有代码的设计》](https://book.douban.com/subject/4262627/)
+- **教程**
+  - [system-design-primer](https://github.com/donnemartin/system-design-primer/blob/master/README-zh-Hans.md)
+  - [从 0 开始学架构](https://time.geekbang.org/column/intro/100006601)
+  - [从 0 开始学微服务](https://time.geekbang.org/column/intro/100014401)
+  - [RPC 实战与核心原理](https://time.geekbang.org/column/intro/100046201)
+  - [微服务架构核心 20 讲](https://time.geekbang.org/course/intro/100003901)
+  - [DDD 实战课](https://time.geekbang.org/column/intro/100037301)
+  - [Sparx UML 教程](https://sparxsystems.cn/resources/uml2_tutorial/index.html)
+  - [UML Tutorial](https://www.tutorialspoint.com/uml/index.htm)
+  - [W3Cschool UML 教程](https://www.w3cschool.cn/uml_tutorial/)
+  - https://sourcemaking.com/refactoring
+
+## 🚪 传送
+
+◾ 🏠 [DESIGN 首页](https://github.com/dunwu/design) ◾ 🎯 [我的博客](https://github.com/dunwu/blog) ◾
+
+> 你可能会感兴趣：
+
+- [Java 教程](https://github.com/dunwu/java-tutorial) 📚
+- [JavaCore 教程](https://dunwu.github.io/javacore/) 📚
+- [JavaTech 教程](https://dunwu.github.io/javatech/) 📚
+- [Spring 教程](https://dunwu.github.io/spring-tutorial/) 📚
+- [Spring Boot 教程](https://dunwu.github.io/spring-boot-tutorial/) 📚
+- [数据库教程](https://dunwu.github.io/db-tutorial/) 📚
+- [数据结构和算法教程](https://dunwu.github.io/algorithm-tutorial/) 📚
+- [Linux 教程](https://dunwu.github.io/linux-tutorial/) 📚
+- [Nginx 教程](https://github.com/dunwu/nginx-tutorial/) 📚

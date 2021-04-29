@@ -11,7 +11,7 @@
 
 <h1 align="center">DESIGN</h1>
 
-> ☕ **DESIGN** 是架构、设计相关的教程。
+> ☕ **DESIGN** 是个人对于架构的心得和总结。
 >
 > - 🔁 项目同步维护：[Github](https://github.com/dunwu/design/) | [Gitee](https://gitee.com/turnon/design/)
 > - 📖 电子书阅读：[Github Pages](https://dunwu.github.io/design/) | [Gitee Pages](http://turnon.gitee.io/design/)
