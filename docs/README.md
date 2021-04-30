@@ -38,36 +38,36 @@ footer: CC-BY-SA-4.0 Licensed | Copyright © 2018-Now Dunwu
 
 #### 创建型模式
 
-- [单例模式 (Singleton Pattern)](pattern/单例模式.md)
-- [简单工厂模式 (Simple Factory Pattern)](pattern/简单工厂模式.md)
-- [工厂方法模式 (Factory Method Pattern)](pattern/工厂方法模式.md)
-- [抽象工厂模式 (Abstract Factory Pattern)](pattern/抽象工厂模式.md)
-- [构造者模式 (Builder Pattern)](pattern/构造者模式.md)
-- [原型模式 (Prototype Pattern)](pattern/原型模式.md)
+- [单例模式 (Singleton)](pattern/单例模式.md)
+- [简单工厂模式 (Simple Factory)](pattern/简单工厂模式.md)
+- [工厂方法模式 (Factory Method)](pattern/工厂方法模式.md)
+- [抽象工厂模式 (Abstract Factory)](pattern/抽象工厂模式.md)
+- [构造者模式 (Builder)](pattern/构造者模式.md)
+- [原型模式 (Prototype)](pattern/原型模式.md)
 
 #### 结构型模式
 
-- [适配器模式 (Adapter Pattern)](pattern/适配器模式.md)
-- [桥接模式 (Bridge Pattern)](pattern/桥接模式.md)
-- [装饰者模式 (Decorator Pattern)](pattern/装饰者模式.md)
-- [组合模式 (Composite Pattern)](pattern/组合模式.md)
-- [外观模式 (Facade Pattern)](pattern/外观模式.md)
-- [享元模式 (Flyweight Pattern)](pattern/享元模式.md)
-- [代理模式 (Proxy Pattern)](pattern/代理模式.md)
+- [适配器模式 (Adapter)](pattern/适配器模式.md)
+- [桥接模式 (Bridge)](pattern/桥接模式.md)
+- [组合模式 (Composite)](pattern/组合模式.md)
+- [装饰模式 (Decorator)](pattern/装饰模式.md)
+- [外观模式 (Facade)](pattern/外观模式.md)
+- [享元模式 (Flyweight)](pattern/享元模式.md)
+- [代理模式 (Proxy)](pattern/代理模式.md)
 
 #### 行为型模式
 
-- [模板方法模式 (Template Method Pattern)](pattern/模板方法模式.md)
-- [命令模式 (Command Pattern)](pattern/命令模式.md)
-- [迭代器模式 (Iterator Pattern)](pattern/迭代器模式.md)
-- [观察者模式 (Observer Pattern)](pattern/观察者模式.md)
-- [解释器模式 (Interpreter Pattern)](pattern/解释器模式.md)
-- [中介者模式 (Mediator Pattern)](pattern/中介者模式.md)
-- [职责链模式 (Chain of Responsibility Pattern)](pattern/职责链模式.md)
-- [备忘录模式 (Memento Pattern)](pattern/备忘录模式.md)
-- [策略模式 (Strategy Pattern)](pattern/策略模式.md)
-- [访问者模式 (Visitor Pattern)](pattern/访问者模式.md)
-- [状态模式 (State Pattern)](pattern/状态模式.md)
+- [模板方法模式 (Template Method)](pattern/模板方法模式.md)
+- [命令模式 (Command)](pattern/命令模式.md)
+- [迭代器模式 (Iterator)](pattern/迭代器模式.md)
+- [观察者模式 (Observer)](pattern/观察者模式.md)
+- [解释器模式 (Interpreter)](pattern/解释器模式.md)
+- [中介者模式 (Mediator)](pattern/中介者模式.md)
+- [职责链模式 (Chain of Responsibility)](pattern/职责链模式.md)
+- [备忘录模式 (Memento)](pattern/备忘录模式.md)
+- [策略模式 (Strategy)](pattern/策略模式.md)
+- [访问者模式 (Visitor)](pattern/访问者模式.md)
+- [状态模式 (State)](pattern/状态模式.md)
 
 ### [重构](refactor)
 

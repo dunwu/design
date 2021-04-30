@@ -40,36 +40,36 @@
 
 #### 创建型模式
 
-- [单例模式 (Singleton Pattern)](docs/pattern/单例模式.md)
-- [简单工厂模式 (Simple Factory Pattern)](docs/pattern/简单工厂模式.md)
-- [工厂方法模式 (Factory Method Pattern)](docs/pattern/工厂方法模式.md)
-- [抽象工厂模式 (Abstract Factory Pattern)](docs/pattern/抽象工厂模式.md)
-- [构造者模式 (Builder Pattern)](docs/pattern/构造者模式.md)
-- [原型模式 (Prototype Pattern)](docs/pattern/原型模式.md)
+- [单例模式 (Singleton)](docs/pattern/单例模式.md)
+- [简单工厂模式 (Simple Factory)](docs/pattern/简单工厂模式.md)
+- [工厂方法模式 (Factory Method)](docs/pattern/工厂方法模式.md)
+- [抽象工厂模式 (Abstract Factory)](docs/pattern/抽象工厂模式.md)
+- [构造者模式 (Builder)](docs/pattern/构造者模式.md)
+- [原型模式 (Prototype)](docs/pattern/原型模式.md)
 
 #### 结构型模式
 
-- [适配器模式 (Adapter Pattern)](docs/pattern/适配器模式.md)
-- [桥接模式 (Bridge Pattern)](docs/pattern/桥接模式.md)
-- [装饰者模式 (Decorator Pattern)](docs/pattern/装饰者模式.md)
-- [组合模式 (Composite Pattern)](docs/pattern/组合模式.md)
-- [外观模式 (Facade Pattern)](docs/pattern/外观模式.md)
-- [享元模式 (Flyweight Pattern)](docs/pattern/享元模式.md)
-- [代理模式 (Proxy Pattern)](docs/pattern/代理模式.md)
+- [适配器模式 (Adapter)](docs/pattern/适配器模式.md)
+- [桥接模式 (Bridge)](docs/pattern/桥接模式.md)
+- [组合模式 (Composite)](docs/pattern/组合模式.md)
+- [装饰模式 (Decorator)](docs/pattern/装饰模式.md)
+- [外观模式 (Facade)](docs/pattern/外观模式.md)
+- [享元模式 (Flyweight)](docs/pattern/享元模式.md)
+- [代理模式 (Proxy)](docs/pattern/代理模式.md)
 
 #### 行为型模式
 
-- [模板方法模式 (Template Method Pattern)](docs/pattern/模板方法模式.md)
-- [命令模式 (Command Pattern)](docs/pattern/命令模式.md)
-- [迭代器模式 (Iterator Pattern)](docs/pattern/迭代器模式.md)
-- [观察者模式 (Observer Pattern)](docs/pattern/观察者模式.md)
-- [解释器模式 (Interpreter Pattern)](docs/pattern/解释器模式.md)
-- [中介者模式 (Mediator Pattern)](docs/pattern/中介者模式.md)
-- [职责链模式 (Chain of Responsibility Pattern)](docs/pattern/职责链模式.md)
-- [备忘录模式 (Memento Pattern)](docs/pattern/备忘录模式.md)
-- [策略模式 (Strategy Pattern)](docs/pattern/策略模式.md)
-- [访问者模式 (Visitor Pattern)](docs/pattern/访问者模式.md)
-- [状态模式 (State Pattern)](docs/pattern/状态模式.md)
+- [模板方法模式 (Template Method)](docs/pattern/模板方法模式.md)
+- [命令模式 (Command)](docs/pattern/命令模式.md)
+- [迭代器模式 (Iterator)](docs/pattern/迭代器模式.md)
+- [观察者模式 (Observer)](docs/pattern/观察者模式.md)
+- [解释器模式 (Interpreter)](docs/pattern/解释器模式.md)
+- [中介者模式 (Mediator)](docs/pattern/中介者模式.md)
+- [职责链模式 (Chain of Responsibility)](docs/pattern/职责链模式.md)
+- [备忘录模式 (Memento)](docs/pattern/备忘录模式.md)
+- [策略模式 (Strategy)](docs/pattern/策略模式.md)
+- [访问者模式 (Visitor)](docs/pattern/访问者模式.md)
+- [状态模式 (State)](docs/pattern/状态模式.md)
 
 ### [重构](docs/refactor)
 
