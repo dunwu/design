@@ -12,7 +12,7 @@
 - [简单工厂模式 (Simple Factory)](简单工厂模式.md)
 - [工厂方法模式 (Factory Method)](工厂方法模式.md)
 - [抽象工厂模式 (Abstract Factory)](抽象工厂模式.md)
-- [构造者模式 (Builder)](构造者模式.md)
+- [建造者模式 (Builder)](建造者模式.md)
 - [原型模式 (Prototype)](原型模式.md)
 
 ### 结构型模式

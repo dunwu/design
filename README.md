@@ -44,7 +44,7 @@
 - [简单工厂模式 (Simple Factory)](docs/pattern/简单工厂模式.md)
 - [工厂方法模式 (Factory Method)](docs/pattern/工厂方法模式.md)
 - [抽象工厂模式 (Abstract Factory)](docs/pattern/抽象工厂模式.md)
-- [构造者模式 (Builder)](docs/pattern/构造者模式.md)
+- [建造者模式 (Builder)](docs/pattern/建造者模式.md)
 - [原型模式 (Prototype)](docs/pattern/原型模式.md)
 
 #### 结构型模式
