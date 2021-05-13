@@ -21,7 +21,7 @@ date: 2019-03-06
 
 UML 图类型如下图所示：
 
-<div align="center"><img src="http://dunwu.test.upcdn.net/cs/design/uml/uml-diagrams.png"/></div>
+<div align="center"><img src="https://raw.githubusercontent.com/dunwu/images/dev/cs/design/uml/uml-diagrams.png"/></div>
 
 #### [结构式建模图](UML结构建模图.md)
 

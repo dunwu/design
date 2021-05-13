@@ -1,13 +1,14 @@
 ---
 home: true
-heroImage: /images/dunwu-logo-200.png
+heroImage: https://raw.githubusercontent.com/dunwu/images/dev/common/dunwu-logo-200.png
 heroText: Design
 tagline: ☕ DESIGN 是个人对于架构的心得和总结。
 actionLink: /
 footer: CC-BY-SA-4.0 Licensed | Copyright © 2018-Now Dunwu
 ---
 
-# Design
+![license](https://badgen.net/github/license/dunwu/design)
+![build](https://api.travis-ci.com/dunwu/design.svg?branch=master)
 
 > ☕ **DESIGN** 是个人对于架构的心得和总结。
 >
