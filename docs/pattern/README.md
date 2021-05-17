@@ -8,12 +8,12 @@
 
 > 创建型模式提供了创建对象的机制， 能够提升已有代码的灵活性和可复用性。
 
-- [单例模式 (Singleton)](单例模式.md)
 - [简单工厂模式 (Simple Factory)](简单工厂模式.md)
 - [工厂方法模式 (Factory Method)](工厂方法模式.md)
 - [抽象工厂模式 (Abstract Factory)](抽象工厂模式.md)
 - [建造者模式 (Builder)](建造者模式.md)
 - [原型模式 (Prototype)](原型模式.md)
+- [单例模式 (Singleton)](单例模式.md)
 
 ### 结构型模式
 

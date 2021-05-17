@@ -39,12 +39,12 @@ footer: CC-BY-SA-4.0 Licensed | Copyright © 2018-Now Dunwu
 
 #### 创建型模式
 
-- [单例模式 (Singleton)](pattern/单例模式.md)
 - [简单工厂模式 (Simple Factory)](pattern/简单工厂模式.md)
 - [工厂方法模式 (Factory Method)](pattern/工厂方法模式.md)
 - [抽象工厂模式 (Abstract Factory)](pattern/抽象工厂模式.md)
 - [建造者模式 (Builder)](pattern/建造者模式.md)
 - [原型模式 (Prototype)](pattern/原型模式.md)
+- [单例模式 (Singleton)](pattern/单例模式.md)
 
 #### 结构型模式
 
