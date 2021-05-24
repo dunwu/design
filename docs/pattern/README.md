@@ -47,8 +47,8 @@
 
 ## 📚 资料
 
-- [《O'Reilly：Head First 设计模式》](https://item.jd.com/10100236.html)
-- [《大话设计模式》](https://item.jd.com/10079261.html)
+- [《Head First 设计模式》](https://book.douban.com/subject/2243615/)
+- [《大话设计模式》](https://book.douban.com/subject/2334288/)
 - [设计模式教程](https://refactoringguru.cn/design-patterns/catalog)
 
 ## 🚪 传送

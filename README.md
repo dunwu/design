@@ -154,8 +154,8 @@
   - [大型网站系统与 Java 中间件实践](https://item.jd.com/11449803.html)
   - [企业 IT 架构转型之道：阿里巴巴中台战略思想与架构实战](https://item.jd.com/12176278.html) - 阐述阿里巴巴中台系统发展，更多的是讲解应用场景和能力，没有讲解技术细节。
   - [逆流而上：阿里巴巴技术成长之路](https://item.jd.com/12238227.html) - 主要以运维的视角阐述系统运维中遇到的困难，定位思路以及解决方法。
-  - [《O'Reilly：Head First 设计模式》](https://item.jd.com/10100236.html)
-  - [《大话设计模式》](https://item.jd.com/10079261.html)
+  - [《Head First 设计模式》](https://book.douban.com/subject/2243615/)
+  - [《大话设计模式》](https://book.douban.com/subject/2334288/)
   - [《重构——改善既有代码的设计》](https://book.douban.com/subject/4262627/)
 - **教程**
   - [system-design-primer](https://github.com/donnemartin/system-design-primer/blob/master/README-zh-Hans.md)
