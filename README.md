@@ -88,6 +88,24 @@
 - [大型系统核心技术](docs/architecture/大型系统核心技术.md)
 - [领域驱动设计](docs/architecture/领域驱动设计.md)
 
+### 分布式系统
+
+- [系统原理面试题](docs/distributed/分布式面试.md)
+- **基础理论**
+  - [分布式基础理论](docs/distributed/分布式理论.md) - 关键词：`拜占庭将军`、`CAP`、`BASE`
+  - [分布式算法 Paxos](docs/distributed/分布式算法Paxos.md) - 关键词：`共识性算法`
+  - [分布式算法 Raft](docs/distributed/分布式算法Raft.md) - 关键词：`共识性算法`
+- **核心技术**
+  - [负载均衡](docs/distributed/负载均衡.md) - 关键词：`轮询`、`随机`、`最少连接`、`源地址哈希`、`一致性哈希`、`虚拟 hash 槽`
+  - [消息队列](docs/distributed/消息队列.md) - 关键词：`重复消费`、`消息丢失`、`消息顺序性`、`消息积压`
+  - [分布式存储](docs/distributed/分布式存储.md) - 关键词：`读写分离`、`分库分表`、`迁移`、`扩容`
+  - [分布式缓存](docs/distributed/分布式缓存.md) - 关键词：`进程内缓存`、`分布式缓存`、`缓存雪崩`、`缓存穿透`、`缓存击穿`、`缓存更新`、`缓存预热`、`缓存降级`
+  - [分布式锁](docs/distributed/分布式锁.md) - 关键词：`数据库`、`Redis`、`ZooKeeper`、`互斥`、`可重入`、`死锁`、`容错`、`自旋尝试`
+  - [分布式 ID](docs/distributed/分布式ID.md) - 关键词：`UUID`、`自增序列`、`雪花算法`、`Leaf`
+  - [分布式事务](docs/distributed/分布式事务.md) - 关键词：`2PC`、`3PC`、`TCC`、`本地消息表`、`MQ 消息`、`SAGA`
+  - [分布式会话](docs/distributed/分布式会话.md) - 关键词：`粘性 Session`、`Session 复制共享`、`基于缓存的 session 共享`
+  - [流量控制](docs/distributed/流量控制.md) - 关键词：`计数器法`、`时间窗口法`、`令牌桶法`、`漏桶法`
+
 ### [设计模式](docs/pattern)
 
 > 设计模式（Design pattern）代表了最佳的实践，通常被有经验的面向对象的软件开发人员所采用。设计模式是软件开发人员在软件开发过程中面临的一般问题的解决方案。这些解决方案是众多软件开发人员经过相当长的一段时间的试验和错误总结出来的。
