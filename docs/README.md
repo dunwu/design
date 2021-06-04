@@ -69,7 +69,7 @@ footer: CC-BY-SA-4.0 Licensed | Copyright © 2018-Now Dunwu
 - 设计一个供应链系统
 - [设计一个低代码平台](solutions/低代码平台.md)
 
-### 架构设计
+### [架构设计](architecture)
 
 > 如果把软件开发工作比作是一场战争，那么系统架构无疑是战略层面的工作。众所周知，万丈高楼平地起，系统架构就像是软件的地基，如果一开始就歪了，那么代码写得再漂亮，软件也难以成功。
 >
@@ -85,7 +85,7 @@ footer: CC-BY-SA-4.0 Licensed | Copyright © 2018-Now Dunwu
 - [大型系统核心技术](architecture/大型系统核心技术.md)
 - [领域驱动设计](architecture/领域驱动设计.md)
 
-### 分布式系统
+### [分布式系统](distributed)
 
 - [系统原理面试题](distributed/分布式面试.md)
 - **基础理论**

@@ -34,6 +34,10 @@ module.exports = {
             link: '/architecture/',
           },
           {
+            text: '分布式',
+            link: '/distributed/',
+          },
+          {
             text: '设计模式',
             link: '/pattern/',
           },
