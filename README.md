@@ -92,6 +92,7 @@
 
 - [系统原理面试题](docs/distributed/分布式面试.md)
 - **基础理论**
+  - [分布式简介](docs/distributed/分布式简介.md)
   - [分布式基础理论](docs/distributed/分布式理论.md) - 关键词：`拜占庭将军`、`CAP`、`BASE`
   - [分布式算法 Paxos](docs/distributed/分布式算法Paxos.md) - 关键词：`共识性算法`
   - [分布式算法 Raft](docs/distributed/分布式算法Raft.md) - 关键词：`共识性算法`

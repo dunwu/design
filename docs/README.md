@@ -89,6 +89,7 @@ footer: CC-BY-SA-4.0 Licensed | Copyright © 2018-Now Dunwu
 
 - [系统原理面试题](distributed/分布式面试.md)
 - **基础理论**
+  - [分布式简介](distributed/分布式简介.md)
   - [分布式基础理论](distributed/分布式理论.md) - 关键词：`拜占庭将军`、`CAP`、`BASE`
   - [分布式算法 Paxos](distributed/分布式算法Paxos.md) - 关键词：`共识性算法`
   - [分布式算法 Raft](distributed/分布式算法Raft.md) - 关键词：`共识性算法`
