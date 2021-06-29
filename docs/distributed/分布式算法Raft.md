@@ -352,6 +352,6 @@ Raft 通过比较两份日志中最后一条日志条目的日志索引和 Term 
 - [Raft 作者讲解视频](https://www.youtube.com/watch?v=YbZ3zDzDnrw&feature=youtu.be)
 - [Raft 作者讲解视频对应的 PPT](http://www2.cs.uh.edu/~paris/6360/PowerPoint/Raft.ppt)
 - [分布式系统的 Raft 算法](https://www.jdon.com/artichect/raft.html)
-- [Raft 算法详解](https://zhuanlan.zhihu.com/p/32052223)
 - [Raft: Understandable Distributed Consensus](http://thesecretlivesofdata.com/raft) - 一个动画教程
+- [The Raft Consensus Algorithm](https://raft.github.io/) - 一个交互式动画教程
 - [sofa-jraft](https://github.com/sofastack/sofa-jraft) - 蚂蚁金服的 Raft 算法实现库（Java 版）
