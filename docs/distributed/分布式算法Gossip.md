@@ -4,7 +4,24 @@ Gossip 也叫 Epidemic Protocol （流行病协议），这个协议基于**最�
 
 Gossip 协议最早是在 1987 年发表在 ACM 上的论文 《Epidemic Algorithms for Replicated Database Maintenance》中被提出，其理论基础来源于流行病学的数学模型，这种场景的一个最大特点就是组成的网络的节点都是去中心化的对等节点，在信息同步过程中不能保证某个时刻所有节点都收到消息，但是理论上最终所有节点都会收到消息，实现最终一致性协议。
 
+Gossip 协议是集群中节点相互通信的内部通信技术。 Gossip 是一种高效、轻量级、可靠的节点间广播协议，用于传播数据。它是去中心化的、“流行病”的、容错的和点对点通信协议。 Cassandra 使用八卦进行对等发现和元数据传播。
+
+### 应用
+
+在 CASSANDRA 中，节点间使用 Gossip 协议交换信息，因此所有节点都可以快速了解集群中的所有其他节点。
+
+Consul 使用名为 SERF 的 Gossip 协议有两个作用 ：
+
+发现新节点和宕机的节点
+
+可靠且快速的事件广播，用于选举 Leader 等
+
 ## Gossip 协议的执行过程
+
+Gossip 协议在概念上非常简单，代码也非常简单。它们背后的基本思想是：一个节点想要与网络中的其他节点共享一些信息。然后周期性地从节点集中随机选择一个节点并交换信息。接收信息的节点做同样的事情。信息定期发送到 N 个目标，N 称为扇出（`Fanout`）。
+
+循环：传播信息的回合数
+扇出：一个节点在每个循环中闲聊的节点数。当一个节点想要广播一条消息时，它从系统中随机选择 t 个节点并将消息发送给它们。
 
 **Gossip 协议的执行过程**：
 
@@ -75,3 +92,6 @@ Gossip 有两种类型：
 
 - [Epidemic Algorithms for Replicated Database Maintenance](http://bitsavers.trailing-edge.com/pdf/xerox/parc/techReports/CSL-89-1_Epidemic_Algorithms_for_Replicated_Database_Maintenance.pdf)
 - [P2P 网络核心技术：Gossip 协议](https://zhuanlan.zhihu.com/p/41228196)
+- [INTRODUCTION TO GOSSIP](https://managementfromscratch.wordpress.com/2016/04/01/introduction-to-gossip/)
+- [Goosip 协议仿真动画](https://flopezluis.github.io/gossip-simulator/)
+
