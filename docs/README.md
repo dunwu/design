@@ -60,7 +60,6 @@ footer: CC-BY-SA-4.0 Licensed | Copyright © 2018-Now Dunwu
 #### 实际业务方案
 
 - 设计一个秒杀系统
-
 - 设计一个权限系统
 - 设计一个微博
 - 设计一个聊天系统
@@ -68,6 +67,7 @@ footer: CC-BY-SA-4.0 Licensed | Copyright © 2018-Now Dunwu
 - 设计一个电商系统
 - 设计一个供应链系统
 - [设计一个低代码平台](solutions/低代码平台.md)
+- [设计一个短地址服务](solutions/短地址服务.md)
 
 ### [架构设计](architecture)
 
@@ -81,7 +81,7 @@ footer: CC-BY-SA-4.0 Licensed | Copyright © 2018-Now Dunwu
 - [系统高可用架构](architecture/系统高可用架构.md)
 - [系统伸缩性架构](architecture/系统伸缩性架构.md)
 - [系统扩展性架构](architecture/系统扩展性架构.md)
-- [系统安全性架构](architecture/系统安全性架构.md)
+- [系统安全性架构](architecture/security/系统安全性架构.md)
 - [大型系统核心技术](architecture/大型系统核心技术.md)
 - [领域驱动设计](architecture/领域驱动设计.md)
 
@@ -89,10 +89,10 @@ footer: CC-BY-SA-4.0 Licensed | Copyright © 2018-Now Dunwu
 
 - [系统原理面试题](distributed/分布式面试.md)
 - **基础理论**
-  - [分布式简介](distributed/分布式简介.md)
-  - [分布式基础理论](distributed/分布式理论.md) - 关键词：`拜占庭将军`、`CAP`、`BASE`
+  - [分布式理论](distributed/分布式理论.md) - 关键词：`拜占庭将军`、`CAP`、`BASE`
   - [分布式算法 Paxos](distributed/分布式算法Paxos.md) - 关键词：`共识性算法`
   - [分布式算法 Raft](distributed/分布式算法Raft.md) - 关键词：`共识性算法`
+  - [分布式算法 Gossip](distributed/分布式算法Gossip.md) - 关键词：`数据传播`
 - **核心技术**
   - [负载均衡](distributed/负载均衡.md) - 关键词：`轮询`、`随机`、`最少连接`、`源地址哈希`、`一致性哈希`、`虚拟 hash 槽`
   - [消息队列](distributed/消息队列.md) - 关键词：`重复消费`、`消息丢失`、`消息顺序性`、`消息积压`

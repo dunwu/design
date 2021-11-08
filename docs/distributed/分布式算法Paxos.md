@@ -7,8 +7,6 @@ date: 2020-02-02 22:00
 
 # 深入剖析共识性算法 Paxos
 
-> 📦 本文已归档到：「[blog](https://github.com/dunwu/blog)」
->
 > Paxos 是一种基于消息传递且具有容错性的共识性（consensus）算法。
 >
 > Paxos 算法解决的问题正是分布式一致性问题。在一个节点数为 2N+1 的分布式集群中，只要半数以上的节点（N + 1）还正常工作，整个系统仍可以正常工作。
@@ -19,13 +17,14 @@ date: 2020-02-02 22:00
 
 - [1. Paxos 背景](#1-paxos-背景)
 - [2. Basic Paxos 算法](#2-basic-paxos-算法)
-    - [2.1. 角色](#21-角色)
-    - [2.2. 算法](#22-算法)
-    - [2.3. 实例](#23-实例)
-- [3. Multi Paxos 算法](#3-multi-paxos-算法)
-    - [3.1. Basic Paxos 的问题](#31-basic-paxos-的问题)
-    - [3.2. Multi Paxos 的改进](#32-multi-paxos-的改进)
-- [4. 参考资料](#4-参考资料)
+  - [2.1. 角色](#21-角色)
+  - [2.2. 算法](#22-算法)
+  - [2.3. 实例](#23-实例)
+- [3. Multi Paxos 思想](#3-multi-paxos-思想)
+  - [3.1. Basic Paxos 的问题](#31-basic-paxos-的问题)
+  - [3.2. Multi Paxos 的改进](#32-multi-paxos-的改进)
+- [4. 总结](#4-总结)
+- [5. 参考资料](#5-参考资料)
 
 <!-- /TOC -->
 
@@ -133,13 +132,13 @@ Multi Paxos 允许有多个自认为是 Leader 的节点并发提交 Proposal �
 
 Chubby 和 Boxwood 均使用 Multi Paxos。ZooKeeper 使用的 Zab 也是 Multi Paxos 的变形。
 
-## 总结
+## 4. 总结
 
 你可以看到，Basic Paxos 是通过二阶段提交的方式来达成共识的。二阶段提交是达成共识的常用方式，如果你需要设计新的共识算法的时候，也可以考虑这个方式。
 
 除了共识，Basic Paxos 还实现了容错，在少于一半的节点出现故障时，集群也能工作。它不像分布式事务算法那样，必须要所有节点都同意后才提交操作，因为“所有节点都同意”这个原则，在出现节点故障的时候会导致整个集群不可用。也就是说，“大多数节点都同意”的原则，赋予了 Basic Paxos 容错的能力，让它能够容忍少于一半的节点的故障。
 
-## 4. 参考资料
+## 5. 参考资料
 
 - [Part-time Parliament 论文](https://research.microsoft.com/en-us/um/people/lamport/pubs/lamport-paxos.pdf)
 - [Paxos Made Simple 论文](https://lamport.azurewebsites.net/pubs/paxos-simple.pdf)

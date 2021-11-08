@@ -6,17 +6,28 @@ Gossip 协议最早是在 1987 年发表在 ACM 上的论文 《Epidemic Algorit
 
 Gossip 协议是集群中节点相互通信的内部通信技术。 Gossip 是一种高效、轻量级、可靠的节点间广播协议，用于传播数据。它是去中心化的、“流行病”的、容错的和点对点通信协议。 Cassandra 使用八卦进行对等发现和元数据传播。
 
-### 应用
+<!-- TOC depthFrom:2 depthTo:3 -->
+
+- [1. 应用](#1-应用)
+- [2. Gossip 协议的执行过程](#2-gossip-协议的执行过程)
+- [3. Gossip 的特点](#3-gossip-的特点)
+  - [3.1. Gossip 的优点](#31-gossip-的优点)
+  - [3.2. Gossip 的缺陷](#32-gossip-的缺陷)
+- [4. Gossip 类型](#4-gossip-类型)
+- [5. 参考资料](#5-参考资料)
+
+<!-- /TOC -->
+
+## 1. 应用
 
 在 CASSANDRA 中，节点间使用 Gossip 协议交换信息，因此所有节点都可以快速了解集群中的所有其他节点。
 
-Consul 使用名为 SERF 的 Gossip 协议有两个作用 ：
+Consul 使用名为 SERF 的 Gossip 协议有两个作用：
 
-发现新节点和宕机的节点
+- 发现新节点和宕机的节点
+- 可靠且快速的事件广播，用于选举 Leader 等
 
-可靠且快速的事件广播，用于选举 Leader 等
-
-## Gossip 协议的执行过程
+## 2. Gossip 协议的执行过程
 
 Gossip 协议在概念上非常简单，代码也非常简单。它们背后的基本思想是：一个节点想要与网络中的其他节点共享一些信息。然后周期性地从节点集中随机选择一个节点并交换信息。接收信息的节点做同样的事情。信息定期发送到 N 个目标，N 称为扇出（`Fanout`）。
 
@@ -35,16 +46,15 @@ Gossip 过程是由种子节点发起，当一个种子节点有状态需要更�
 - 每次散播消息都选择**尚未发送过的节点**进行散播
 - 收到消息的节点不再往发送节点散播，比如 A -> B，那么 B 进行散播的时候，不再发给 A。
 
-
 注意：Gossip 过程是异步的，也就是说发消息的节点不会关注对方是否收到，即不等待响应；不管对方有没有收到，它都会每隔 1 秒向周围节点发消息。**异步是它的优点，而消息冗余则是它的缺点**。
 
 Goosip 协议的信息传播和扩散通常需要由种子节点发起。整个传播过程可能需要一定的时间，由于不能保证某个时刻所有节点都收到消息，但是理论上最终所有节点都会收到消息，因此它是一个**最终一致性**协议。
 
 ![](https://raw.githubusercontent.com/dunwu/images/dev/snap/20210708234308.gif)
 
-## Gossip 的特点
+## 3. Gossip 的特点
 
-### Gossip 的优点
+### 3.1. Gossip 的优点
 
 - **扩展性**：网络可以允许节点的任意增加和减少，新增加的节点的状态最终会与其他节点一致。
 - **容错**：网络中任何节点的宕机和重启都不会影响 Gossip 消息的传播，Gossip 协议具有天然的分布式系统容错特性。
@@ -52,19 +62,19 @@ Goosip 协议的信息传播和扩散通常需要由种子节点发起。整个�
 - **一致性收敛**：Gossip 协议中的消息会以一传十、十传百一样的指数级速度在网络中快速传播，因此系统状态的不一致可以在很快的时间内收敛到一致。消息传播速度达到了 logN。
 - **简单**：Gossip 协议的过程极其简单，实现起来几乎没有太多复杂性。
 
-### Gossip 的缺陷
+### 3.2. Gossip 的缺陷
 
 分布式网络中，没有一种完美的解决方案，Gossip 协议跟其他协议一样，也有一些不可避免的缺陷，主要是两个：
 
 - **消息的延迟**：由于 Gossip 协议中，节点只会随机向少数几个节点发送消息，消息最终是通过多个轮次的散播而到达全网的，因此使用 Gossip 协议会造成不可避免的消息延迟。不适合用在对实时性要求较高的场景下。
 - **消息冗余**：Gossip 协议规定，节点会定期随机选择周围节点发送消息，而收到消息的节点也会重复该步骤，因此就不可避免的存在消息重复发送给同一节点的情况，造成了消息的冗余，同时也增加了收到消息的节点的处理压力。而且，由于是定期发送，因此，即使收到了消息的节点还会反复收到重复消息，加重了消息的冗余。
 
-## Gossip 类型
+## 4. Gossip 类型
 
 Gossip 有两种类型：
 
 - **Anti-Entropy(反熵)**：以固定的概率传播所有的数据。Anti-Entropy 是 SI model，节点只有两种状态，Suspective 和 Infective，叫做 simple epidemics。
-- **Rumor-Mongering(谣言传播)**：仅传播新到达的数据。Rumor-Mongering 是 SIR model，节点有三种状态，Suspective，Infective 和 Removed，叫做 complex epidemics。 
+- **Rumor-Mongering(谣言传播)**：仅传播新到达的数据。Rumor-Mongering 是 SIR model，节点有三种状态，Suspective，Infective 和 Removed，叫做 complex epidemics。
 
 熵是物理学上的一个概念，代表杂乱无章，而反熵就是在杂乱无章中寻求一致。
 
@@ -88,10 +98,9 @@ Gossip 有两种类型：
 
 如果把两个节点数据同步一次定义为一个周期，则在一个周期内，Push 需通信 1 次，Pull 需 2 次，Push/Pull 则需 3 次。虽然消息数增加了，但从效果上来讲，Push/Pull 最好，理论上一个周期内可以使两个节点完全一致。直观上，Push/Pull 的收敛速度也是最快的。
 
-## 参考资料
+## 5. 参考资料
 
 - [Epidemic Algorithms for Replicated Database Maintenance](http://bitsavers.trailing-edge.com/pdf/xerox/parc/techReports/CSL-89-1_Epidemic_Algorithms_for_Replicated_Database_Maintenance.pdf)
 - [P2P 网络核心技术：Gossip 协议](https://zhuanlan.zhihu.com/p/41228196)
 - [INTRODUCTION TO GOSSIP](https://managementfromscratch.wordpress.com/2016/04/01/introduction-to-gossip/)
 - [Goosip 协议仿真动画](https://flopezluis.github.io/gossip-simulator/)
-
