@@ -19,10 +19,10 @@
     "@vuepress/theme-vue": "^1.8.2",
     "markdownlint-cli": "^0.29.0",
     "markdownlint-rule-emphasis-style": "^1.0.1",
-    "rimraf": "^3.0.1",
-    "vue-toasted": "^1.1.25",
+    "rimraf": "^3.0.2",
+    "vue-toasted": "^1.1.28",
     "vuepress": "^1.8.2",
-    "vuepress-plugin-flowchart": "^1.4.2"
+    "vuepress-plugin-flowchart": "^1.4.3"
   },
   "dependencies": {
     "moment": "^2.29.1"
