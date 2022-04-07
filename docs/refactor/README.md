@@ -4,7 +4,7 @@
 >
 > **重构的目的是为了提高代码的质量和性能**。
 
-![](https://raw.githubusercontent.com/dunwu/images/dev/snap/20210430112157.png)
+![img](https://raw.githubusercontent.com/dunwu/images/dev/snap/20210430112157.png)
 
 ## 📖 内容
 

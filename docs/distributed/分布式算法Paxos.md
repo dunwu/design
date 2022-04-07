@@ -55,7 +55,7 @@ Paxos 将分布式系统中的节点分为以下角色：
 
 在多副本状态机中，每个副本都同时具有 Proposer、Acceptor、Learner 三种角色。
 
-![](https://raw.githubusercontent.com/dunwu/images/dev/snap/20210528150700.png)
+![img](https://raw.githubusercontent.com/dunwu/images/dev/snap/20210528150700.png)
 
 ### 2.2. 算法
 
