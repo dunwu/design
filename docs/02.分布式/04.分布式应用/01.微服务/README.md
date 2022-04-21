@@ -1,6 +1,5 @@
 ---
 title: 微服务
-date: 2021-06-02 11:22:02
 categories: 
   - 分布式
   - 分布式应用
@@ -9,7 +8,9 @@ tags:
   - 分布式
   - 分布式应用
   - 微服务
-permalink: /pages/8c8870/
+abbrlink: 460c1130
+date: 2021-06-02 11:22:02
+permalink: /pages/7e2fd1/
 ---
 
 # 微服务
