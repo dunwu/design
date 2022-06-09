@@ -12,30 +12,29 @@ module.exports = {
     // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
     ['meta', { name: 'keywords', content: 'vuepress,theme,blog,vdoing' }],
-    ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
+    ['meta', { name: 'theme-color', content: '#11a8cd' }] // 移动浏览器主题颜色
   ],
   markdown: {
     // lineNumbers: true,
     extractHeaders: ['h2', 'h3', 'h4', 'h5', 'h6'], // 提取标题到侧边栏的级别，默认['h2', 'h3']
     externalLinks: {
       target: '_blank',
-      rel: 'noopener noreferrer',
-    },
+      rel: 'noopener noreferrer'
+    }
   },
   // 主题配置
   themeConfig: {
     nav: [
-      { text: '架构', link: '/01.架构/' },
-      { text: '分布式', link: '/02.分布式/' },
       {
         text: '设计',
         link: '/03.设计/',
         items: [
-          { text: 'UML', link: '/03.设计/01.UML/' },
+          { text: '架构', link: '/03.设计/01.架构/' },
           { text: '设计模式', link: '/03.设计/02.设计模式/' },
           { text: '重构', link: '/03.设计/03.重构/' },
-        ],
-      },
+          { text: 'UML', link: '/03.设计/11.UML/' }
+        ]
+      }
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: 'https://raw.githubusercontent.com/dunwu/images/dev/common/dunwu-logo.png', // 导航栏logo
@@ -48,12 +47,13 @@ module.exports = {
     editLinkText: '📝 帮助改善此页面！',
 
     // 以下配置是Vdoing主题改动的和新增的配置
-    sidebar: { mode: 'structuring', collapsable: false }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
+    sidebar: { mode: 'structuring', collapsable: true }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable:
+    // Boolean} | 'auto' | 自定义    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
 
-    // sidebarOpen: false, // 初始状态是否打开侧边栏，默认true
+    sidebarOpen: true, // 初始状态是否打开侧边栏，默认true
     updateBar: {
       // 最近更新栏
-      showToArticle: true, // 显示到文章页底部，默认true
+      showToArticle: true // 显示到文章页底部，默认true
       // moreArticle: '/archives' // “更多文章”跳转的页面，默认'/archives'
     },
     // titleBadge: false, // 文章标题前的图标是否显示，默认true
@@ -78,7 +78,7 @@ module.exports = {
     author: {
       // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, href: String}
       name: 'dunwu', // 必需
-      href: 'https://github.com/dunwu', // 可选的
+      href: 'https://github.com/dunwu' // 可选的
     },
     social: {
       // 社交图标，显示于博主信息栏和页脚栏
@@ -87,21 +87,21 @@ module.exports = {
         {
           iconClass: 'icon-youjian',
           title: '发邮件',
-          link: 'mailto:forbreak@163.com',
+          link: 'mailto:forbreak@163.com'
         },
         {
           iconClass: 'icon-github',
           title: 'GitHub',
-          link: 'https://github.com/dunwu',
-        },
-      ],
+          link: 'https://github.com/dunwu'
+        }
+      ]
     },
     footer: {
       // 页脚信息
       createYear: 2019, // 博客创建年份
-      copyrightInfo: '钝悟（dunwu） | CC-BY-SA-4.0', // 博客版权信息，支持a标签
+      copyrightInfo: '钝悟（dunwu） | CC-BY-SA-4.0' // 博客版权信息，支持a标签
     },
-    htmlModules,
+    htmlModules
   },
 
   // 插件
@@ -111,8 +111,8 @@ module.exports = {
       {
         // 鼠标点击爱心特效
         color: '#11a8cd', // 爱心颜色，默认随机色
-        excludeClassName: 'theme-vdoing-content', // 要排除元素的class, 默认空''
-      },
+        excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
+      }
     ],
 
     ['fulltext-search'], // 全文搜索
@@ -142,8 +142,8 @@ module.exports = {
         copySelector: ['div[class*="language-"] pre', 'div[class*="aside-code"] aside'], // String or Array
         copyMessage: '复制成功', // default is 'Copy successfully and then paste it for use.'
         duration: 1000, // prompt message display time.
-        showInMobile: false, // whether to display on the mobile side, default: false.
-      },
+        showInMobile: false // whether to display on the mobile side, default: false.
+      }
     ],
     [
       'demo-block',
@@ -155,18 +155,18 @@ module.exports = {
           // vue: 'https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js', // 在线示例中的vue依赖
           jsfiddle: false, // 是否显示 jsfiddle 链接
           codepen: true, // 是否显示 codepen 链接
-          horizontal: false, // 是否展示为横向样式
-        },
-      },
+          horizontal: false // 是否展示为横向样式
+        }
+      }
     ],
     [
       'vuepress-plugin-zooming', // 放大图片
       {
         selector: '.theme-vdoing-content img:not(.no-zoom)',
         options: {
-          bgColor: 'rgba(0,0,0,0.6)',
-        },
-      },
+          bgColor: 'rgba(0,0,0,0.6)'
+        }
+      }
     ],
     [
       '@vuepress/last-updated', // "上次更新"时间格式
@@ -174,11 +174,30 @@ module.exports = {
         transformer: (timestamp, lang) => {
           const dayjs = require('dayjs') // https://day.js.org/
           return dayjs(timestamp).format('YYYY/MM/DD, HH:mm:ss')
-        },
-      },
+        }
+      }
     ],
+    [
+      'vuepress-plugin-comment', // 评论
+      {
+        choosen: 'gitalk',
+        options: {
+          clientID: 'e14ca3cdac2f448d544e',
+          clientSecret: '75f09b9dede044939cf0ff690bc93c225bcb4063',
+          repo: 'design', // GitHub 仓库
+          owner: 'dunwu', // GitHub仓库所有者
+          admin: ['dunwu'], // 对仓库有写权限的人
+          // distractionFreeMode: true,
+          pagerDirection: 'last', // 'first'正序 | 'last'倒序
+          id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
+          title: '「评论」<%- frontmatter.title %>', // GitHub issue 的标题
+          labels: ['Gitalk', 'Comment'], // GitHub issue 的标签
+          body: '页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>' // GitHub issue 的内容
+        }
+      }
+    ]
   ],
 
   // 监听文件变化并重新构建
-  extraWatchFiles: ['.vuepress/config.js', '.vuepress/config/htmlModules.js'],
+  extraWatchFiles: ['.vuepress/config.js', '.vuepress/config/htmlModules.js']
 }

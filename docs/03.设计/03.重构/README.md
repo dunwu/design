@@ -1,13 +1,14 @@
 ---
 title: 重构
-categories: 
-  - 设计
-  - 重构
-tags: 
-  - 设计
-  - 重构
 date: 2021-04-29 16:05:03
-permalink: /pages/156570/
+categories:
+  - 设计
+  - 重构
+tags:
+  - 设计
+  - 重构
+permalink: /pages/d200c3/
+hidden: true
 ---
 
 # 重构
@@ -32,8 +33,8 @@ permalink: /pages/156570/
 - [《代码整洁之道》](https://book.douban.com/subject/4199741/)
 - [《重构 - 改善既有代码的设计》](https://book.douban.com/subject/4262627/)
 - [《代码大全》](https://book.douban.com/subject/1477390/)
-- https://sourcemaking.com/refactoring
+- [重构教程](https://sourcemaking.com/refactoring)
 
 ## 🚪 传送
 
-◾ 🏠 [DESIGN 首页](https://github.com/dunwu/design) ◾ 🎯 [我的博客](https://github.com/dunwu/blog) ◾
+◾ 💧 [我的 IT 知识图谱](https://dunwu.github.io/waterdrop/) ◾ 🎯 [我的博客](https://dunwu.github.io/blog/) ◾
