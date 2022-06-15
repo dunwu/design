@@ -185,7 +185,7 @@
 
 ## 🚪 传送
 
-◾ 🏠 [DESIGN 首页](https://github.com/dunwu/design) ◾ 🎯 [我的博客](https://github.com/dunwu/blog) ◾
+◾ 🏠 [DESIGN 首页](https://github.com/dunwu/design) ◾ 🎯 [钝悟的博客](https://github.com/dunwu/blog) ◾
 
 > 你可能会感兴趣：
 
