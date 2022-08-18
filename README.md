@@ -195,6 +195,7 @@
 - [Spring 教程](https://dunwu.github.io/spring-tutorial/) 📚
 - [Spring Boot 教程](https://dunwu.github.io/spring-boot-tutorial/) 📚
 - [数据库教程](https://dunwu.github.io/design/) 📚
+- [Java 初学者](https://www.scaler.com/topics/course/java-beginners/)
 - [数据结构和算法教程](https://dunwu.github.io/algorithm-tutorial/) 📚
 - [Linux 教程](https://dunwu.github.io/linux-tutorial/) 📚
 - [Nginx 教程](https://github.com/dunwu/nginx-tutorial/) 📚
