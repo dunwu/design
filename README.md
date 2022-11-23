@@ -192,6 +192,7 @@
 - [Java 教程](https://github.com/dunwu/java-tutorial) 📚
 - [JavaCore 教程](https://dunwu.github.io/javacore/) 📚
 - [JavaTech 教程](https://dunwu.github.io/javatech/) 📚
+- [Java 简介](https://www.scaler.com/topics/java/introduction-to-java/) 📚
 - [Spring 教程](https://dunwu.github.io/spring-tutorial/) 📚
 - [Spring Boot 教程](https://dunwu.github.io/spring-boot-tutorial/) 📚
 - [数据库教程](https://dunwu.github.io/design/) 📚
