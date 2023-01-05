@@ -181,6 +181,7 @@
   - [Sparx UML 教程](https://sparxsystems.cn/resources/uml2_tutorial/index.html)
   - [UML Tutorial](https://www.tutorialspoint.com/uml/index.htm)
   - [W3Cschool UML 教程](https://www.w3cschool.cn/uml_tutorial/)
+  - [UML 中的活动图](https://www.scaler.com/topics/activity-diagram-in-uml/)
   - https://sourcemaking.com/refactoring
 
 ## 🚪 传送
