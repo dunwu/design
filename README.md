@@ -31,7 +31,7 @@
 > 架构之道，在于权衡；权衡之术，在于取舍。
 >
 > - 🔁 项目同步维护：[Github](https://github.com/dunwu/design/) | [Gitee](https://gitee.com/turnon/design/)
-> - 📖 电子书阅读：[Github Pages](https://dunwu.github.io/design/) | [Gitee Pages](http://turnon.gitee.io/design/)
+> - 📖 电子书阅读：[Github Pages](https://dunwu.github.io/design/)
 
 ## 📖 内容
 

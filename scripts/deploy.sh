@@ -40,7 +40,7 @@ git add -A
 git commit -m "${msg}"
 # 推送到github gh-pages分支
 git push -f "${GITHUB_URL}" master:gh-pages
-git push -f "${GITEE_URL}" master:gh-pages
+#git push -f "${GITEE_URL}" master:gh-pages
 
 cd -
 rm -rf ${ROOT_DIR}/docs/.temp
